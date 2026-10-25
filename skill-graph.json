@@ -1,0 +1,35 @@
+{
+  "_note": "Demo skill-occupation graph. Codes are NCO-2015 4-digit unit groups (aligned with ISCO-08). Verify against the official NCO-2015 list before production use.",
+  "skills": [
+    { "id": "electronics-repair", "label": "Phone and electronics repair", "keywords": ["phone", "mobile", "repair", "fix", "electronics", "charger", "radio", "tv"] },
+    { "id": "computer-basics", "label": "Computer and internet use", "keywords": ["computer", "laptop", "internet", "typing", "online", "excel", "software"] },
+    { "id": "troubleshooting", "label": "Troubleshooting", "keywords": ["troubleshoot", "problem", "solve", "fix", "debug"] },
+    { "id": "bookkeeping", "label": "Bookkeeping", "keywords": ["account", "accounts", "bookkeeping", "ledger", "money", "calculate", "maths", "math"] },
+    { "id": "customer-service", "label": "Customer service", "keywords": ["customer", "customers", "shop", "kirana", "sell", "sales", "counter"] },
+    { "id": "small-business", "label": "Running a small business", "keywords": ["business", "shop", "kirana", "stall", "sell", "entrepreneur"] },
+    { "id": "stitching", "label": "Stitching and tailoring", "keywords": ["stitch", "stitching", "tailor", "tailoring", "sewing", "embroidery", "clothes"] },
+    { "id": "drawing-design", "label": "Drawing and design", "keywords": ["draw", "drawing", "design", "paint", "art", "rangoli", "poster"] },
+    { "id": "farming", "label": "Farming", "keywords": ["farm", "farming", "crop", "crops", "paddy", "field", "agriculture", "vegetable"] },
+    { "id": "aquaculture", "label": "Fish and prawn farming", "keywords": ["fish", "prawn", "shrimp", "pond", "aquaculture"] },
+    { "id": "electrical-wiring", "label": "Electrical wiring", "keywords": ["wiring", "electric", "electrical", "fan", "switch", "light"] },
+    { "id": "caregiving", "label": "Caring for people", "keywords": ["care", "caring", "elderly", "sick", "nurse", "health", "first aid"] },
+    { "id": "teaching", "label": "Teaching and explaining", "keywords": ["teach", "teaching", "tuition", "explain", "children", "kids", "tutor"] },
+    { "id": "communication", "label": "Communication", "keywords": ["talk", "speak", "communication", "telugu", "english", "help", "people"] }
+  ],
+  "occupations": [
+    { "code": "7421", "title": "Electronics mechanics and servicers", "skills": ["electronics-repair", "troubleshooting", "electrical-wiring"], "nextSteps": ["Find an electronics or mobile-repair course on Skill India Digital", "Look for a local repair shop apprenticeship"] },
+    { "code": "7422", "title": "ICT installers and servicers", "skills": ["electronics-repair", "computer-basics", "troubleshooting"], "nextSteps": ["Learn basic computer hardware and networking", "Ask about apprenticeships with local internet providers"] },
+    { "code": "3512", "title": "ICT user support technicians", "skills": ["computer-basics", "troubleshooting", "communication", "customer-service"], "nextSteps": ["Build computer basics through a free online course", "Practise helping others set up phones and apps"] },
+    { "code": "4311", "title": "Accounting and bookkeeping clerks", "skills": ["bookkeeping", "computer-basics"], "nextSteps": ["Learn spreadsheet basics", "Take a bookkeeping or accounts assistant course"] },
+    { "code": "5221", "title": "Shopkeepers", "skills": ["small-business", "bookkeeping", "customer-service"], "nextSteps": ["Learn digital payments and stock keeping", "Look for small-business and enterprise support schemes"] },
+    { "code": "5223", "title": "Shop sales assistants", "skills": ["customer-service", "communication"], "nextSteps": ["Take a retail sales associate course", "Ask local stores about part-time roles"] },
+    { "code": "7531", "title": "Tailors, dressmakers, furriers and hatters", "skills": ["stitching", "drawing-design", "small-business"], "nextSteps": ["Join a tailoring or fashion course", "Build a small portfolio of your work"] },
+    { "code": "2166", "title": "Graphic and multimedia designers", "skills": ["drawing-design", "computer-basics"], "nextSteps": ["Try free design tools on a phone or computer", "Collect your best drawings into a portfolio"] },
+    { "code": "6221", "title": "Aquaculture workers", "skills": ["aquaculture", "farming"], "nextSteps": ["Learn pond and water-quality basics", "Ask local fisheries offices about training"] },
+    { "code": "6111", "title": "Field crop and vegetable growers", "skills": ["farming", "small-business"], "nextSteps": ["Learn modern crop and soil practices", "Ask about Krishi Vigyan Kendra trainings near you"] },
+    { "code": "7411", "title": "Building and related electricians", "skills": ["electrical-wiring", "troubleshooting"], "nextSteps": ["Join an electrician course", "Work with a licensed electrician to learn safely"] },
+    { "code": "3221", "title": "Nursing associate professionals", "skills": ["caregiving", "communication"], "nextSteps": ["Check eligibility for nursing and health-care courses", "Learn first aid"] },
+    { "code": "5311", "title": "Child care workers", "skills": ["caregiving", "teaching", "communication"], "nextSteps": ["Look into early childhood care courses", "Volunteer at a local anganwadi or school"] },
+    { "code": "2341", "title": "Primary school teachers", "skills": ["teaching", "communication"], "nextSteps": ["Keep strong marks in your main subjects", "Tutor younger students to build experience"] }
+  ]
+}
