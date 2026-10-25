@@ -1,0 +1,12 @@
+{
+  "name": "dhaari-prototype",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Dhaari: voice-first career and entitlement platform with a hash-chained trust ledger (DRUNIX-ready).",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js",
+    "test:chaincode": "cd chaincode/dhaari && go test ./..."
+  },
+  "engines": { "node": ">=18" }
+}
